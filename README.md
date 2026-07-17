@@ -1,6 +1,8 @@
 # 🌐 Personal Portfolio Website
 
-### Developed by **Meshal Al-Mehmady**
+> **Developed by:** Meshal Al Mehmady
+
+---
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/43f7be7a-9b2a-424c-a6a7-d45ca9764960" width="100%">
