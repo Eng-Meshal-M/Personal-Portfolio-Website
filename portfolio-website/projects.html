@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Meshal Talal Al-Mehmady</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="index.html" class="nav__brand">M<span class="dot">.</span>TM</a>
+  <nav class="nav__links" id="navLinks">
+    <a href="about.html">about</a>
+    <a href="projects.html" class="is-active">projects</a>
+    <a href="contact.html">contact</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+  <div class="corner-deco corner-deco--tl" aria-hidden="true">
+    <svg viewBox="0 0 70 70"><path d="M5 65 V25 Q5 5 25 5 H65"/><circle cx="65" cy="5" r="4" class="via via--pcb"/><circle cx="5" cy="65" r="4" class="via via--copper"/></svg>
+  </div>
+
+  <section class="section section--page-top">
+    <p class="eyebrow">// projects</p>
+    <h1 class="section__title">Build log</h1>
+
+    <div class="projects">
+
+      <article class="project project--copper">
+        <a class="project__media" href="https://github.com/Eng-Meshal-M/Robotic-Arm-Project" target="_blank" rel="noopener">
+          <span class="project__placeholder">01</span>
+        </a>
+        <div class="project__body">
+          <h3>4-DOF Pick-and-Place Robotic Arm</h3>
+          <p>An Arduino Uno + PCA9685-driven 4-DOF arm for automated pick-and-place, with
+             safety-constrained joint limits and an isolated 5V/3A supply for smooth, brownout-free motion.</p>
+          <a class="project__link" href="https://github.com/Eng-Meshal-M/Robotic-Arm-Project" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </div>
+      </article>
+
+      <article class="project project--pcb">
+
+  	<a class="project__media" href="https://github.com/Eng-Meshal-M/Teachable-Machine-Image-Classification" target="_blank" 		rel="noopener">
+    <span class="project__placeholder">02</span>
+  	 </a>
+  	  <div class="project__body">
+      <h3>Teachable Machine Image Classification</h3>
+       <p>
+      Image classification project using Google Teachable Machine.
+      The model was trained and tested to recognize different image classes
+      using TensorFlow and Keras.
+    </p>
+    <a class="project__link" href="https://github.com/Eng-Meshal-M/Teachable-Machine-Image-Classification" target="_blank" 			 rel="noopener">
+      View on GitHub ↗
+    	 </a>
+  		 </div>
+		</article>
+        
+        <article class="project project--pcb">
+
+        <a class="project__media" href="https://github.com/Eng-Meshal-M/Flash-Keychain-Design" target="_blank" rel="noopener">
+          <span class="project__placeholder">03</span>
+        </a>
+        <div class="project__body">
+          <h3>Flash Keychain Design</h3>
+          <p>
+            A mechanical CAD design project creating a custom keychain
+            prepared for 3D printing.
+          </p>
+          <a class="project__link" href="https://github.com/Eng-Meshal-M/Flash-Keychain-Design" target="_blank" rel="noopener">
+            View on GitHub ↗
+          </a>
+        </div>
+      </article>
+        
+    </div>
+  </section>
+</main>
+
+<div class="corner-deco corner-deco--br" aria-hidden="true">
+  <svg viewBox="0 0 70 70"><path d="M65 5 V45 Q65 65 45 65 H5"/><circle cx="5" cy="65" r="4" class="via via--copper"/><circle cx="65" cy="5" r="4" class="via via--pcb"/></svg>
+</div>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Meshal Talal Al-Mehmady.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

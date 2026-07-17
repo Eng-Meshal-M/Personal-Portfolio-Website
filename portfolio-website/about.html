@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Meshal Talal Al-Mehmady</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a href="index.html" class="nav__brand">M<span class="dot">.</span>TM</a>
+  <nav class="nav__links" id="navLinks">
+    <a href="about.html" class="is-active">about</a>
+    <a href="projects.html">projects</a>
+    <a href="contact.html">contact</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+  <div class="corner-deco corner-deco--tl" aria-hidden="true">
+    <svg viewBox="0 0 70 70"><path d="M5 65 V25 Q5 5 25 5 H65"/><circle cx="65" cy="5" r="4" class="via via--pcb"/><circle cx="5" cy="65" r="4" class="via via--copper"/></svg>
+  </div>
+
+  <section class="section section--page-top">
+    <p class="eyebrow">// about</p>
+    <h1 class="section__title">Profile</h1>
+
+    <div class="about__grid">
+      <p class="about__bio">
+        I'm a Computer Engineering Graduate interested in embedded systems,
+		robotics, and software development. I enjoy building practical projects
+		that combine programming, electronics, and hardware to create real-world
+		solutions. My interests include robotic systems, microcontrollers,
+		and intelligent technologies.
+		 </p>           
+
+      <dl class="spec">
+        <div><dt>Role</dt><dd>Computer Engineering Graduate</dd></div>
+        <div><dt>Focus</dt><dd>Embedded Systems, Robotics</dd></div>
+        <div><dt>GPA</dt><dd>3.58 / 4.00</dd></div>
+        <div><dt>Location</dt><dd>Taif, Saudi Arabia</dd></div>
+        <div><dt>Status</dt><dd>Open to opportunities</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="trace" aria-hidden="true"><svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0 20 H500 L520 5 H680 L700 20 H1200"/><circle cx="500" cy="20" r="4"/><circle cx="700" cy="20" r="4"/></svg></div>
+
+  <section class="section">
+    <p class="eyebrow">// skills</p>
+    <h2 class="section__title">Modules</h2>
+
+    <div class="modules">
+      <div class="module">
+        <h3>Languages &amp; Programming</h3>
+        <ul class="chips">
+          <li>C++</li>
+		<li>Python</li>
+		<li>C</li>
+        </ul>
+      </div>
+      <div class="module">
+        <h3>Robotics</h3>
+        <ul class="chips">
+          <li>Robotic Arms</li><li>Robot Design</li><li>Basic Kinematics</li>
+        </ul>
+      </div>
+      <div class="module">
+        <h3>Embedded Systems</h3>
+        <ul class="chips">
+          <li>Arduino</li><li>Microcontrollers</li><li>Sensors &amp; Actuators</li><li>Servo Control</li>
+        </ul>
+      </div>
+      <div class="module">
+        <h3>Tools &amp; Platforms</h3>
+        <ul class="chips">
+          <li>GitHub</li><li>Tinkercad</li><li>MATLAB</li><li>Onshape</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="corner-deco corner-deco--br" aria-hidden="true">
+  <svg viewBox="0 0 70 70"><path d="M65 5 V45 Q65 65 45 65 H5"/><circle cx="5" cy="65" r="4" class="via via--copper"/><circle cx="65" cy="5" r="4" class="via via--pcb"/></svg>
+</div>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Meshal Talal Al-Mehmady.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
